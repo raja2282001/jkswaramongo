@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "your-build-command-here"
   },
   "engines": {
     "npm": ">=8.0.0 <9.0.0",
