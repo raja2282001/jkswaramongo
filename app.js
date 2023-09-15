@@ -109,7 +109,6 @@ app.use("/homeoffer",homeofferimage)
 app.use("/homebaner",homebaner)
 
 mongoose.connect(`${process.env.MONGO_URL}`,{},(err)=>{
-    // mongoose.connect("mongodb+srv://rnkitsolutions:rI0vkBkrAncXfdCa@cluster0.c3gvrpc.mongodb.net/jkswara?retryWrites=true&w=majority",{},(err)=>{
     if(err){
         console.log("error in db connections....")
     }
